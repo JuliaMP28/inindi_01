@@ -7,7 +7,7 @@ import serial
 
 #initialize serial port
 ser = serial.Serial()
-ser.port = 'COM14' #Arduino serial port
+ser.port = 'COM6' #Arduino serial port
 ser.baudrate = 115200
 ser.timeout = 10 #specify timeout when using readline()
 ser.open()
